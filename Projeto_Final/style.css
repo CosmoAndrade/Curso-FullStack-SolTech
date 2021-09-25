@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/parar-de-fumar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+ 
+}
+
+.titulo {
+    text-align: center;
+    font-size: 49px;
+    font-weight: 600;
+  
+    color: white;
+}
+
+
+span{
+    color: yellow;
+}
+
+/* parte1 */
+
+
+.parte2{
+   
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 23, 13);
+    text-align: center;
+   
+}
+
+
+.titulo2 h1 {
+   
+    font-weight: 600;
+    color: limegreen;
+    font-size: 30px;
+  
+}
+
+
+.parte2 .titulo2 h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.txt-1 {
+    margin-top: 20px;
+}
+
+.txt-1 h2{
+    color: white;
+    font-size: 25px;
+}
+
+.txt-1 .p-1 {
+    color: white;
+    font-size: 22px;
+   
+}
+
+
+.txt-1 .txtPreco{
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+   
+}
+
+.txt-1 hr{
+ 
+    
+    width: 500px;
+    color: white;
+    margin: auto;
+    padding: 1px; 
+    font-weight: 900;
+    margin-top: 25px;
+  
+}
+
+.txt-1 .p-2 {
+    color: white;
+    font-size: 25px;
+}
+
+.txt-1 .botao  button{
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: rgb(34,229 ,145);
+    
+}
+
+.txt-1 .cartoes {
+    margin-top: 18px;
+   
+
+}
+
+.txt-1 .cartoes img {
+    width: 250px;
+}
+
+/* Fim parte2 */
+
+.parte3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.parte3 {
+    margin-right: 10px;
+}
+
+.parte3 .conteudo h2{
+
+    color: seagreen;
+    font-weight: 900;
+    font-size: 49px;
+    margin-bottom: 15px;
+
+}
+
+.parte3 .conteudo span {
+    color: black;
+    font-weight: 600;
+    
+}
+
+.parte3 .profile{
+    margin-right: 25px;
+}
+
+.parte3 .conteudo .texto1 {
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* Fim parte3 */
+
+.parte4{
+    
+    background-color: rgb(16, 16, 16);
+
+   
+}
+
+
+.parte4 h2{
+
+    color : rgb(34,229 ,145);
+    text-align: center;
+    padding-top: 25px;
+   
+
+}
+
+
+
+.parte4 .card-p4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   
+   
+}
+
+.parte4 .card-p4 .card-item{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    
+
+}
+
+.parte4 .card-p4 .card-item img{
+
+    width: 160px;
+   
+}
+
+.parte4 .card-p4 .card-text{
+
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+/* Fim parte4 */
+
+.parte5{
+    background-image: linear-gradient(to right,#0274be,red,green);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.parte5 h2{
+    font-size: 40px;
+}
+
+.parte5 p{
+    font-size: 20px;
+    
+}
+/* 
+Fim parte5 */
+
+.parte6{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 23, 13);
+    text-align: center;
+    padding-top: 65px;
+}
+
+/* Fim parte6 */
+
+
+.parte7{
+
+    display: flex;
+    flex-direction: row;
+ 
+    align-items: center;
+    background-color: rgb(0, 23, 13);
+    color: white;
+   
+  
+    
+
+
+}
+
+.parte7 .parte-1{
+    
+    padding-top: 45px;
+     
+    margin-right: 180px;
+    margin-left: 20px;
+
+}
+
+.parte7 .text-7{
+    font-size: 12px;
+}
+
+/* Fim parte7 */
+
+
+.parte8{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 23, 13);
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+ 
+    
+}
+
+.parte8 h5{
+    font-size: 16px;
+}
+
+

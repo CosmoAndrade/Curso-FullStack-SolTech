@@ -1,0 +1,7 @@
+
+Desenvolver o front-end dessa página.
+
+Fonte dos títulos: https://fonts.google.com/specimen/Playfair+Display
+Fonte dos textos: https://fonts.google.com/specimen/Mulish
+
+Cor do botão: #FB8F1D

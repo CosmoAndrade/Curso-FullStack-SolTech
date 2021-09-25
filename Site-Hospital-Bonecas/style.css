@@ -1,0 +1,81 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+  
+}
+
+button{
+    margin: 5px;;
+    padding: 5px;
+    background-color: blueviolet;
+   
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .bonecas{
+      display: flex;
+  }
+
+  h1{
+      color: midnightblue;
+  }
+
+  h4{
+      color: orchid;
+  }
+  h2{
+      color:midnightblue;
+  }

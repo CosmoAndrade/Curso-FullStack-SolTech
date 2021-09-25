@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container {
+    max-width: 600px !important;
+    margin: 0 auto;
+}
+
+#bestsellers {
+    background-color: #fbf6f2;
+    padding: 30px;
+}
+
+.cor-principal {
+    color: #6e472e;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-produto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 150px;
+    background-color: #f5ede6;
+}
+
+.margin-baixo {
+    margin-bottom: 20px;    
+}
+
+
+/*******************************************************/
+
+
+.d-grid {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 120px);
+    
+    grid-template-areas: 
+    "produto_4 produto_4 produto_2 produto_3 produto_1 produto_1"
+    "produto_4 produto_4 produto_5 produto_6 produto_1 produto_1";
+}
+
+
+.produto-1 {
+    grid-area: produto_1;
+}
+
+.produto-2 {
+    grid-area: produto_2;
+}
+
+.produto-3 {
+    grid-area: produto_3;
+}
+
+.produto-4 {
+    grid-area: produto_4;
+}
+
+.produto-5 {
+    grid-area: produto_5;
+}
+
+.produto-6 {
+    grid-area: produto_6;
+}
