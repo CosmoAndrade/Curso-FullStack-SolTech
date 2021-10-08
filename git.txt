@@ -29,9 +29,13 @@ git branch -M main
 git push -u origin main
 
 Como mudar a branch master para main no GitHub.
- Faça a alteração local primeiro:
-   git branch -m master main
- O comando abaixo vai criar uma nova branch main no repositório remoto.
-  git push -u origin main
+ git checkout main
+
+- Criar uma nova branch 
+git checkout -b contato
+git checkout contato
 
 
+- Unir as branch 
+git checkout main
+git merge contato
