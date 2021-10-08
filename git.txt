@@ -1,0 +1,37 @@
+- Configurar usuário
+
+git config --global user.name ""
+
+- Configurar e-mail
+
+git config --global user.email ""
+
+- Iniciar Repositório
+git init
+
+Adicionar arquivo ao stage
+git add 
+
+Status do código
+git status
+
+- Histórico
+git log
+
+- Commit
+git commit –m “coloque sua mensagem aqui”
+
+
+Subir repositório
+
+git remote add origin https://github.com/CosmoAndrade/Projetos-diversos.git
+git branch -M main
+git push -u origin main
+
+Como mudar a branch master para main no GitHub.
+ Faça a alteração local primeiro:
+   git branch -m master main
+ O comando abaixo vai criar uma nova branch main no repositório remoto.
+  git push -u origin main
+
+
